@@ -162,4 +162,16 @@ client.on("message", message => {
 	    
 });
 
+
+
+
+
+
+client.on('ready', () => {
+  client.user.setGame(`لخواص البوت .help`,'https://www.twitch.');
+});
+
+
+
+
 client.login(process.env.BOT_TOKEN);
