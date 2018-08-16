@@ -148,7 +148,7 @@ client.on("message", message => {
 
   if(message.content === ".help") {
     message.channel.send(` QuranBot
-:mosque: .q1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
+:mosque: .quran 2  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
 
 :mosque: .quran 2  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
 
