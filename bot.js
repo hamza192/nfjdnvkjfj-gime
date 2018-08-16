@@ -5,7 +5,7 @@ const yt = require('ytdl-core');
 client.on('ready', () => {
 console.log('Logging into discord..');
 console.log(`
-By Yuki
+By hamza
 `);
 
 });
@@ -148,7 +148,7 @@ client.on("message", message => {
 
   if(message.content === ".help") {
     message.channel.send(` QuranBot
-:mosque: .quran 1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
+:mosque: .q1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
 
 :mosque: .quran 2  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
 
