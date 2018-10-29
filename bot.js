@@ -56,6 +56,8 @@ var q5 = ".quran 5"
 
 var q6 = ".quran 6"
 
+var q7 = ".quran 7"
+
 function play(connection, message) {
 	var server = servers[message.guild.id];
 
@@ -167,6 +169,23 @@ client.on("message", message => {
   }
     
 	
+	if (message.content === q7 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=Db7V_aGLb4Q', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
 	
     //outher_cummon  
     
@@ -191,6 +210,8 @@ client.on("message", message => {
 :mosque: .quran 5 :   سورة الكهف بصوت الشيخ المعيقلي
 
 :mosque: .quran 6 :   أذكار الصباح - العفاسي 
+
+:mosque: .quran 7 :   أذكار المساء - العفاسي 
 
 :mosque: .stop     : لـ أيقاف تشغيل البوت `)
 }
