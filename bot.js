@@ -136,7 +136,7 @@ client.on("message", message => {
  
     
 	
-	if (message.content === q5 ) {
+	if (message.content === q4 ) {
                   message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
