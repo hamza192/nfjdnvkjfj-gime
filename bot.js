@@ -52,7 +52,7 @@ var q3 = ".quran 3"
 
 var q4 = ".quran 4"
 
-
+var q5 = ".quran 5"
 
 
 
@@ -136,7 +136,7 @@ client.on("message", message => {
  
     
 	
-	if (message.content === q4 ) {
+	if (message.content === q5 ) {
                   message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
