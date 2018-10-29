@@ -213,19 +213,30 @@ client.on("message", message => {
 
 :mosque: .quran 7 :   أذكار المساء - العفاسي 
 
-:mosque: .stop     : لـ أيقاف تشغيل البوت `)
-}
- 
-	    
+:mosque: .stop     : لـ أيقاف تشغيل البوت
+البوت من فاعل خير لدعوة 
+لدعوة البوت .inv
+لسيرفر المساعدة.sp`)
+}	    
+});
+
+client.on('message', message => {
+     if (message.content === ".sp") {
+     let embed = new Discord.RichEmbed()
+  .setAuthor(message.author.username)
+  .setColor("#9B59B6")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/6ZMhN2x**")
+     
+     
+  message.channel.sendEmbed(embed);
+    }
 });
 
 
 
 
-
-
 client.on('ready', () => {
-  client.user.setGame(`لخواص البوت .help`,'https://www.twitch.');
+  client.user.setGame(`لخواص البوت .helpاو.sp`,'https://www.twitch.');
 });
 
 
