@@ -135,6 +135,25 @@ client.on("message", message => {
   }
  
     
+	
+	if (message.content === q5 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=sOML64y5dfQ', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
     
     //outher_cummon  
     
@@ -148,13 +167,15 @@ client.on("message", message => {
 
   if(message.content === ".help") {
     message.channel.send(` QuranBot
-:mosque: .quran 2  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
+:mosque: .quran 1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
 
 :mosque: .quran 2  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
 
 :mosque: .quran 3  :   القرآن الكريم كامل بصوت الشيخ عبد الرحمن السديس وسعود الشريم 
 
 :mosque: .quran 4  :   القرآن الكريم كامل بصوت الشيخ المعيقلي
+
+:mosque: .quran 5 :   سورة الكهف بصوت الشيخ المعيقلي
 
 :mosque: .stop     : لـ أيقاف تشغيل البوت `)
 }
