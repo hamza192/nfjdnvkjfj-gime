@@ -255,7 +255,6 @@ client.on('message', message => {
 
 
 
-
 client.on('ready', () => {
   client.user.setGame(`لخواص البوت .helpاو.sp`,'https://www.twitch.');
 });
