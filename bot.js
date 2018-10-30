@@ -235,6 +235,27 @@ client.on('message', message => {
 
 
 
+client.on('message', message => {
+        if (message.content === "-inv") {
+            if(!message.channel.guild) return;
+        let embed = new Discord.RichEmbed()
+        .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
+        .setTitle(`:small_orange_diamond: اضغط هنا `)
+        .setURL(`https://discordapp.com/oauth2/authorize/?permissions=0&scope=bot&client_id=479645812280786957`)
+        .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
+     message.channel.sendEmbed(embed);
+       }
+   });
+
+
+
+
+
+
+
+
+
+
 client.on('ready', () => {
   client.user.setGame(`لخواص البوت .helpاو.sp`,'https://www.twitch.');
 });
