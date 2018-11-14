@@ -58,6 +58,59 @@ var q6 = ".quran 6"
 
 var q7 = ".quran 7"
 
+var q8 = ".quran 8"
+
+var q9 = ".quran 9"
+
+var q10 = ".quran 10"
+
+var q11 = ".quran 11"
+
+var q12 = ".quran 12"
+
+var q13 = ".quran 13"
+
+var q14 = ".quran 14"
+
+var q15 = ".quran 15"
+
+var q16 = ".quran 16"
+
+var q17 = ".quran 17"
+
+var q18 = ".quran 18"
+
+var q19 = ".quran 19"
+
+var q20 = ".quran 20"
+
+var q21 = ".quran 21"
+
+var q22 = ".quran 22"
+
+var q23 = ".quran 23"
+
+var q24 = ".quran 24"
+
+var q25 = ".quran 25"
+
+var q26 = ".quran 26"
+
+var q27 = ".quran 27"
+
+var q28 = ".quran 28"
+
+var q29 = ".quran 29"
+
+var q30 = ".quran 30"
+
+
+
+
+
+
+
+
 function play(connection, message) {
 	var server = servers[message.guild.id];
 
@@ -105,7 +158,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://youtu.be/0m02xNtR8gA', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=2ZuDh0vqxUE', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
       });
   }
@@ -118,7 +171,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=4JvY-MccxNk', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=gIYaTs1Kw90', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
       });
   }
@@ -131,7 +184,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=Ktync4j_nmA', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=F9w_BGTVY4o', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -163,7 +216,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=Db7V_aGLb4Q', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=Pbbl-iZbhb4', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -177,7 +230,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=Db7V_aGLb4Q', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=Y5YKlCIn9aE', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -185,6 +238,463 @@ client.on("message", message => {
 	
 	
 	
+if (message.content === q8 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=0rY0n4xEs44', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }	
+	
+	
+	
+	
+	if (message.content === q9 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=vjGEP4rW_l4', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q10 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=7vrX1vIyRzw', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q11 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=tuYP5JktEn0', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	if (message.content === q12 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=4fugPfoybFI', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	if (message.content === q13{
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=YuiDHf624tY', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	if (message.content === q14) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=YrWbQz7M2EA', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	if (message.content === q15) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=siH3Rm3pqkw', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	if (message.content === q16) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=vD4fLi_MtKs', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q17) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=5jovCoS5Fbw', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q18) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=bNYNoM-d444', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	if (message.content === q19) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=jIhMpnx5ceE', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	if (message.content === q20) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=cJNKDUqkbkc', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q21 {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=GUYyQpEgBgM', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q22) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=00A-STn5M0E', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q23) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=HKajpaHo72E', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	if (message.content === q24
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=7UaT5Q8IvVs', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q25) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=Cg1TjxQeV2M', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	if (message.content === q26) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=vSOl00Y-WDo', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q27 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=QO2BN916CKI', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	if (message.content === q28) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=-q5P4hH46vU', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	if (message.content === q29) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=k-71LO_6jMM', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q30) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=hbELjHYr11Q', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+
+
+	if (message.content === q31 {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/	
 	
 	
     //outher_cummon  
@@ -201,17 +711,74 @@ client.on("message", message => {
     message.channel.send(` QuranBot
 :mosque: .quran 1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
 
-:mosque: .quran 2  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
+:mosque: .quran 2  :   ماهر المعيقلي - سورة الفاتحة مكررة 7 مرات
 
-:mosque: .quran 3  :   القرآن الكريم كامل بصوت الشيخ عبد الرحمن السديس وسعود الشريم 
-
-:mosque: .quran 4  :   القرآن الكريم كامل بصوت الشيخ المعيقلي
+:mosque: .quran 3  :   سورة البقرة كاملة ماهر المعيقلي 
+ 
+:mosque: .quran 4  :   جديد - سورة آل عمران كاملة - للقارئ : وديع اليمني
 
 :mosque: .quran 5 :   سورة الكهف بصوت الشيخ المعيقلي
 
-:mosque: .quran 6 :   أذكار الصباح - العفاسي 
+:mosque: .quran 6 :   سورة النساء كامله بصوت الشيخ ماهر المعيقلي
 
-:mosque: .quran 7 :   أذكار المساء - العفاسي 
+:mosque: .quran 7 :   سورة المائده كامله بصوت الشيخ ماهر المعيقلي
+
+:mosque: .quran 8:   ماهر المعيقلي سورة الانعام كامله
+
+:mosque: .quran 8:   ماهر المعيقلي سورة الاعراف كامله
+
+:mosque: .quran 10 :   ماهر المعيقلي سورة الانفال كامله
+
+:mosque: .quran 11 :   سورة التوبة كاملة .. للشيخ ماهر المعيقلي ..
+
+:mosque: .quran 12 :   ماهر المعيقلي سورة يونس كامله
+
+:mosque: .quran 13:   سورة هود كامله بصوت القارئ ماهر المعيقلي
+
+:mosque: .quran 14 :   سورة يوسف كامله بصوت القارئ ماهر المعيقلي .
+
+:mosque: .quran 15 :   ماهر المعيقلي سورة الرعد كامله
+
+:mosque: .quran 16:   ماهر المعيقلي سورة ابراهيم كامله
+
+:mosque: .quran 17   سورة الحجر  ماهر المعيقلي
+
+:mosque: .quran 18   سورة النحل بصوت ماهر المعيقلي
+
+:mosque: .quran 19   سوره الاسراء الشيخ ماهر المعقلي تلاوه بارواع الاصوات Al-Isra
+
+:mosque: .quran 20 سورة مريم | ماهر المعيقلي ::: تلاوة خاشعه
+
+:mosque: .quran 21   سورة طه ماهر المعيقلي
+
+:mosque: .quran 22   ماهر المعيقلي سورة الانبياء
+
+:mosque: .quran 23 سورة الحج مكتوبة ماهر المعيقلي
+
+:mosque: .quran 24  ماهر المعيقلي سورة المؤمنون كامله
+
+:mosque: .quran 25   سورة النور كاملة ماهر المعيقلي
+
+:mosque: .quran 26  سورة الفرقان - ماهر المعيقلي
+
+:mosque: .quran 27   سورة الشعراء مكتوبة كاملة ماهر المعيقلي
+
+:mosque: .quran 28   أجمل تلاوة ماهر المعيقلي سورة النمل كاملةه
+
+:mosque: .quran 29 سورةقصص كاملة مكتوبة ماهر المعيقلي 
+
+:mosque: .quran 30   سورة العنكبوت ماهر المعيقلي
+
+:mosque: .quran 31 أجمل تلاوة سورة الروم ماهر المعيقلي
+
+
+
+
+
+
+
+
+
 
 :mosque: .stop     : لـ أيقاف تشغيل البوت
 البوت من فاعلين خير لدعوة 
