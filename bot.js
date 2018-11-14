@@ -68,7 +68,7 @@ var q11 = ".quran 11"
 
 var q12 = ".quran 12"
 
-var q13 = ".quran 13"
+
 
 var q14 = ".quran 14"
 
@@ -324,19 +324,6 @@ if (message.content === q8 ) {
   }
 	
 	
-	
-	if (message.content === q13 ) {
-                  message.react('🔊')
-    const voiceChannel = message.member.voiceChannel;
-    if (!voiceChannel) {
-      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
-    }
-    voiceChannel.join()
-      .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=YuiDHf624tY', {audioonly: true});
-        const dispatcher = connnection.playStream(stream);
-        });
-  }
 	
 	
 	
@@ -733,7 +720,6 @@ if (message.content === q8 ) {
 
 :mosque: .quran 12 :   ماهر المعيقلي سورة يونس كامله
 
-:mosque: .quran 13:   سورة هود كامله بصوت القارئ ماهر المعيقلي
 
 :mosque: .quran 14 :   سورة يوسف كامله بصوت القارئ ماهر المعيقلي .
 
