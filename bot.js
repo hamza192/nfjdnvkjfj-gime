@@ -104,7 +104,7 @@ var q29 = ".quran 29"
 
 var q30 = ".quran 30"
 
-
+var q31 = ".quran 31"
 
 
 
