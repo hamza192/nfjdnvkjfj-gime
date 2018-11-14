@@ -84,7 +84,7 @@ var q19 = ".quran 19"
 
 var q20 = ".quran 20"
 
-var q21 = ".quran 21"
+
 
 var q22 = ".quran 22"
 
@@ -468,18 +468,6 @@ if (message.content === q8 ) {
 	
 	
 	
-	if (message.content === q21 {
-                  message.react('🔊')
-    const voiceChannel = message.member.voiceChannel;
-    if (!voiceChannel) {
-      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
-    }
-    voiceChannel.join()
-      .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=GUYyQpEgBgM', {audioonly: true});
-        const dispatcher = connnection.playStream(stream);
-        });
-  }
 	
 	
 	
@@ -735,7 +723,6 @@ if (message.content === q8 ) {
 
 :mosque: .quran 20 سورة مريم | ماهر المعيقلي ::: تلاوة خاشعه
 
-:mosque: .quran 21   سورة طه ماهر المعيقلي
 
 :mosque: .quran 22   ماهر المعيقلي سورة الانبياء
 
