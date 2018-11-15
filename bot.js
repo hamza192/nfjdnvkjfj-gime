@@ -103,7 +103,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://youtu.be/0m02xNtR8gA', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=2ZuDh0vqxUE&t=6s', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
       });
   }
@@ -150,7 +150,7 @@ client.on("message", message => {
     message.channel.send(` QuranBot
 :mosque: .quran 1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
 
-:mosque: .quran 2  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
+:mosque: .quran 2  :   ماهر المعيقلي - سورة الفاتحة مكررة 7 مرات
 
 :mosque: .quran 3  :   القرآن الكريم كامل بصوت الشيخ عبد الرحمن السديس وسعود الشريم 
 
