@@ -68,7 +68,7 @@ var q11 = ".quran 11"
 
 var q12 = ".quran 12"
 
-
+var q13 = ".quran 13"
 
 var q14 = ".quran 14"
 
@@ -325,6 +325,19 @@ if (message.content === q8 ) {
 	
 	
 	
+	if (message.content === q13 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=YuiDHf624tY', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
 	
 	
 	
@@ -463,7 +476,18 @@ if (message.content === q8 ) {
 	
 	
 	
-	
+	if (message.content === q21) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=00A-STn5M0E', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
 	
 	
 	
@@ -708,6 +732,7 @@ if (message.content === q8 ) {
 
 :mosque: .quran 12 :   ماهر المعيقلي سورة يونس كامله
 
+:mosque: .quran 13 :   ماهر المعيقلي سورة يونس كامله
 
 :mosque: .quran 14 :   سورة يوسف كامله بصوت القارئ ماهر المعيقلي .
 
@@ -723,8 +748,9 @@ if (message.content === q8 ) {
 
 :mosque: .quran 20 سورة مريم | ماهر المعيقلي ::: تلاوة خاشعه
 
+:mosque: .quran 21   ماهر المعيقلي سورة الانبياء
 
-:mosque: .quran 22   ماهر المعيقلي سورة الانبياء
+:mosque: .quran 22   ماهر المعيقلي سورة االحجء
 
 :mosque: .quran 23 سورة الحج مكتوبة ماهر المعيقلي
 
