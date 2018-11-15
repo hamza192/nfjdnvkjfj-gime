@@ -116,7 +116,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=4JvY-MccxNk', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=F9w_BGTVY4o', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
       });
   }
@@ -152,9 +152,24 @@ client.on("message", message => {
 
 :mosque: .quran 2  :   ماهر المعيقلي - سورة الفاتحة مكررة 7 مرات
 
-:mosque: .quran 3  :   القرآن الكريم كامل بصوت الشيخ عبد الرحمن السديس وسعود الشريم 
+:mosque: .quran 3  :   سورة البقرة كاملة ماهر المعيقلي
 
-:mosque: .quran 4  :   القرآن الكريم كامل بصوت الشيخ المعيقلي
+:mosque: .quran 4  :   جديد - سورة آل عمران كاملة - للقارئ : وديع اليمني
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 :mosque: .stop     : لـ أيقاف تشغيل البوت `)
 }
