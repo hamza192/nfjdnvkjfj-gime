@@ -84,7 +84,15 @@ var q19 = ".quran 19"
 
 var q20 = ".quran 20"
 
+var q21 = ".quran 21"
 
+var q22 = ".quran 22"
+
+var q23 = ".quran 23"
+
+var q24 = ".quran 24"
+
+var q25 = ".quran 25"
 
 
 
@@ -456,6 +464,117 @@ client.on("message", message => {
   }
 	
 	
+	if (message.content === q21) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=00A-STn5M0E', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q22) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=00A-STn5M0E', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q23) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=HKajpaHo72E', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	if (message.content === q24
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=7UaT5Q8IvVs', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q25) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=Cg1TjxQeV2M', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -479,6 +598,7 @@ client.on("message", message => {
 :mosque: .quran 3  :   سورة البقرة 
 
 :mosque: .quran 4  :    سورة آل عمران 
+
 :mosque: .quran 5 :   سورة الكهف 
 
 :mosque: .quran 6 :   سورة النساء
@@ -511,8 +631,15 @@ client.on("message", message => {
 
 :mosque: .quran 20      سورة مريم 
 
+:mosque: .quran 21    سورة الانبياء
 
+:mosque: .quran 22   ي سورة االحج
 
+:mosque: .quran 23    سورة المؤمنون  
+
+:mosque: .quran 24    
+
+:mosque: .quran 25   سورة الفرقان 
 
 
 
