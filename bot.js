@@ -135,7 +135,7 @@ var PREFIX = ".";
 
 
 if (message.content === q1 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -148,7 +148,7 @@ if (message.content === q1 ) {
   }
   
   	                    if (message.content === q2 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -161,7 +161,7 @@ if (message.content === q1 ) {
   }
   
     	                    if (message.content === q3 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -184,7 +184,7 @@ if (message.content === q1 ) {
 
 
       if (message.content === q4 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -199,7 +199,7 @@ if (message.content === q1 ) {
     
 	
 	if (message.content === q5 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -216,7 +216,7 @@ if (message.content === q1 ) {
 	
 	
 	if (message.content === q6 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -230,7 +230,7 @@ if (message.content === q1 ) {
     
 	
 	if (message.content === q7 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -246,7 +246,7 @@ if (message.content === q1 ) {
 	
 	
 if (message.content === q8 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -262,7 +262,7 @@ if (message.content === q8 ) {
 	
 	
 	if (message.content === q9 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -281,7 +281,7 @@ if (message.content === q8 ) {
 	
 	
 	if (message.content === q10 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -302,7 +302,7 @@ if (message.content === q8 ) {
 	
 	
 	if (message.content === q11 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -318,7 +318,7 @@ if (message.content === q8 ) {
 	
 	
 	if (message.content === q12 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -333,7 +333,7 @@ if (message.content === q8 ) {
 	
 	
 	if (message.content === q13 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -349,7 +349,7 @@ if (message.content === q8 ) {
 	
 	
 	if (message.content === q14) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -365,7 +365,7 @@ if (message.content === q8 ) {
 	
 	
 	if (message.content === q15) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -383,7 +383,7 @@ if (message.content === q8 ) {
 	
 	
 	if (message.content === q16) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -400,7 +400,7 @@ if (message.content === q8 ) {
 
 
 cif (message.content === q17) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -427,7 +427,7 @@ cif (message.content === q17) {
 	
 	
 	if (message.content === q18) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -445,7 +445,7 @@ cif (message.content === q17) {
 	
 	
 	if (message.content === q19) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -462,7 +462,7 @@ cif (message.content === q17) {
 	
 	
 	if (message.content === q20) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -477,7 +477,7 @@ cif (message.content === q17) {
 	
 	
 	if (message.content === q21) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -501,7 +501,7 @@ cif (message.content === q17) {
 	
 	
 	if (message.content === q22) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -535,7 +535,7 @@ cif (message.content === q17) {
 	
 	
 	if (message.content === q25) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -553,7 +553,7 @@ cif (message.content === q17) {
 	
 	
 	if (message.content === q26) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -574,7 +574,7 @@ cif (message.content === q17) {
 	
 	
 	if (message.content === q27 ) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -591,7 +591,7 @@ cif (message.content === q17) {
 	
 	
 	if (message.content === q28) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -608,7 +608,7 @@ cif (message.content === q17) {
 	
 	
 	if (message.content === q29) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -630,7 +630,7 @@ cif (message.content === q17) {
 	
 	
 	if (message.content === q30) {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -646,7 +646,7 @@ cif (message.content === q17) {
 
 
 	if (message.content === q31 {
-                  message.react('🔊')
+                  message.react(':loud_sound:')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
       return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
