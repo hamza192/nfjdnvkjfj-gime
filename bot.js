@@ -76,8 +76,6 @@ var q15 = ".quran 15"
 
 var q16 = ".quran 16"
 
-
-
 var q18 = ".quran 18"
 
 var q19 = ".quran 19"
