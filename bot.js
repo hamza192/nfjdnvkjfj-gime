@@ -52,7 +52,11 @@ var q3 = ".quran 3"
 
 var q4 = ".quran 4"
 
+var q5 = ".quran 5"
 
+var q6 = ".quran 6"
+
+var q7 = ".quran 7"
 
 
 
@@ -135,6 +139,63 @@ client.on("message", message => {
   }
  
     
+	
+	
+	
+	if (message.content === q5 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=sOML64y5dfQ', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	if (message.content === q6 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=Pbbl-iZbhb4', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+    
+	
+	if (message.content === q7 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=Y5YKlCIn9aE', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     
     //outher_cummon  
     
@@ -156,8 +217,11 @@ client.on("message", message => {
 
 :mosque: .quran 4  :   جديد - سورة آل عمران كاملة - للقارئ : وديع اليمني
 
+:mosque: .quran 5 :   سورة الكهف بصوت الشيخ المعيقلي
 
+:mosque: .quran 6 :   سورة النساء كامله بصوت الشيخ ماهر المعيقلي
 
+mosque: .quran 7 :   سورة المائده كامله بصوت الشيخ ماهر المعيقلي
 
 
 
