@@ -319,29 +319,28 @@ client.on("message", message => {
     message.channel.send(` QuranBot
 :mosque: .quran 1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
 
-:mosque: .quran 2  :   ماهر المعيقلي - سورة الفاتحة مكررة 7 مرات
+:mosque: .quran 2  :    سورة الفاتحة
 
-:mosque: .quran 3  :   سورة البقرة كاملة ماهر المعيقلي
+:mosque: .quran 3  :   سورة البقرة 
 
-:mosque: .quran 4  :   جديد - سورة آل عمران كاملة - للقارئ : وديع اليمني
+:mosque: .quran 4  :    سورة آل عمران 
+:mosque: .quran 5 :   سورة الكهف 
 
-:mosque: .quran 5 :   سورة الكهف بصوت الشيخ المعيقلي
+:mosque: .quran 6 :   سورة النساء
 
-:mosque: .quran 6 :   سورة النساء كامله بصوت الشيخ ماهر المعيقلي
+:mosque: .quran 7 :   سورة المائدة
 
-:mosque: .quran 7 :   سورة المائده كامله بصوت الشيخ ماهر المعيقلي
+:mosque: .quran 8:    سورة الانعام 
 
-:mosque: .quran 8:   ماهر المعيقلي سورة الانعام كامله
+:mosque: .quran 8:    سورة الاعراف 
 
-:mosque: .quran 8:   ماهر المعيقلي سورة الاعراف كامله
+:mosque: .quran 10 :    سورة الانفال 
 
-:mosque: .quran 10 :   ماهر المعيقلي سورة الانفال كامله
+:mosque: .quran 11 :   سورة التوبة ..
 
-:mosque: .quran 11 :   سورة التوبة كاملة .. للشيخ ماهر المعيقلي ..
+:mosque: .quran 12 :    سورة يونس 
 
-:mosque: .quran 12 :   ماهر المعيقلي سورة يونس كامله
-
-:mosque: .quran 13 :   ماهر المعيقلي سورة يونس كامله
+:mosque: .quran 13 :    سورة يونس
 
 
 
