@@ -748,7 +748,7 @@ if(message.content === ".help") {
 }
  
 	    
-});
+
 
 
 client.login(process.env.BOT_TOKEN);
