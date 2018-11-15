@@ -84,7 +84,7 @@ var q19 = ".quran 19"
 
 var q20 = ".quran 20"
 
-
+var q21 = ".quran 21"
 
 var q22 = ".quran 22"
 
