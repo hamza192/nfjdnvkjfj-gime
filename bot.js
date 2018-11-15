@@ -685,6 +685,10 @@ cif (message.content === q17) {
     message.channel.send(` QuranBot
 if(message.content === ".help") {
     message.channel.send(` QuranBot
+}
+
+  if(message.content === ".help") {
+    message.channel.send(` QuranBot
 :mosque: .quran 1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
 :mosque: .quran 2  :   ماهر المعيقلي - سورة الفاتحة مكررة 7 مرات
 :mosque: .quran 3  :   سورة البقرة كاملة ماهر المعيقلي 
@@ -722,9 +726,11 @@ if(message.content === ".help") {
 لدعوة البوت .inv
 لسيرفر المساعدة.sp`)
 }	    
+}); `)
+}
+ 
+	    
 });
-
-
 
 
 client.login(process.env.BOT_TOKEN);
