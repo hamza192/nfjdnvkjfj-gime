@@ -5,12 +5,12 @@ const yt = require('ytdl-core');
 client.on('ready', () => {
 console.log('Logging into discord..');
 console.log(`
-By hamza
+By Yuki
 `);
 
 });
 
-    //جميع الحقوق محفوظه ليوكي ا و اليكس يعني لا تسوي مبرمج وتزور يا تافه 
+//جميع الحقوق محفوظه ليوكي ا و اليكس يعني لا تسوي مبرمج وتزور يا تافه 
 
 
 
@@ -51,61 +51,6 @@ var q2 = ".quran 2"
 var q3 = ".quran 3"
 
 var q4 = ".quran 4"
-
-var q5 = ".quran 5"
-
-var q6 = ".quran 6"
-
-var q7 = ".quran 7"
-
-var q8 = ".quran 8"
-
-var q9 = ".quran 9"
-
-var q10 = ".quran 10"
-
-var q11 = ".quran 11"
-
-var q12 = ".quran 12"
-
-var q13 = ".quran 13"
-
-var q14 = ".quran 14"
-
-var q15 = ".quran 15"
-
-var q16 = ".quran 16"
-
-var q17 = ".quran 17"
-
-var q18 = ".quran 18"
-
-var q19 = ".quran 19"
-
-var q20 = ".quran 20"
-
-var q21 = ".quran 21"
-
-var q22 = ".quran 22"
-
-var q23 = ".quran 23"
-
-var q24 = ".quran 24"
-
-var q25 = ".quran 25"
-
-var q26 = ".quran 26"
-
-var q27 = ".quran 27"
-
-var q28 = ".quran 28"
-
-var q29 = ".quran 29"
-
-var q30 = ".quran 30"
-
-var q31 = ".quran 31"
-
 
 
 
@@ -158,7 +103,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=2ZuDh0vqxUE', {audioonly: true});
+        let stream = yt('https://youtu.be/0m02xNtR8gA', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
       });
   }
@@ -171,39 +116,26 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=gIYaTs1Kw90', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=4JvY-MccxNk', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
       });
   }
   
-      	              
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/	
-	
-	
+      	                    if (message.content === q4 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=Ktync4j_nmA', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+ 
+    
+    
     //outher_cummon  
     
   
@@ -218,120 +150,18 @@ client.on("message", message => {
     message.channel.send(` QuranBot
 :mosque: .quran 1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
 
-:mosque: .quran 2  :   ماهر المعيقلي - سورة الفاتحة مكررة 7 مرات
+:mosque: .quran 2  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
 
-:mosque: .quran 3  :   سورة البقرة كاملة ماهر المعيقلي 
+:mosque: .quran 3  :   القرآن الكريم كامل بصوت الشيخ عبد الرحمن السديس وسعود الشريم 
+
+:mosque: .quran 4  :   القرآن الكريم كامل بصوت الشيخ المعيقلي
+
+:mosque: .stop     : لـ أيقاف تشغيل البوت `)
+}
  
-:mosque: .quran 4  :   جديد - سورة آل عمران كاملة - للقارئ : وديع اليمني
-
-:mosque: .quran 5 :   سورة الكهف بصوت الشيخ المعيقلي
-
-:mosque: .quran 6 :   سورة النساء كامله بصوت الشيخ ماهر المعيقلي
-
-:mosque: .quran 7 :   سورة المائده كامله بصوت الشيخ ماهر المعيقلي
-
-:mosque: .quran 8:   ماهر المعيقلي سورة الانعام كامله
-
-:mosque: .quran 8:   ماهر المعيقلي سورة الاعراف كامله
-
-:mosque: .quran 10 :   ماهر المعيقلي سورة الانفال كامله
-
-:mosque: .quran 11 :   سورة التوبة كاملة .. للشيخ ماهر المعيقلي ..
-
-:mosque: .quran 12 :   ماهر المعيقلي سورة يونس كامله
-
-:mosque: .quran 13 :   ماهر المعيقلي سورة يونس كامله
-
-:mosque: .quran 14 :   سورة يوسف كامله بصوت القارئ ماهر المعيقلي .
-
-:mosque: .quran 15 :   ماهر المعيقلي سورة الرعد كامله
-
-:mosque: .quran 16:   ماهر المعيقلي سورة ابراهيم كامله
-
-:mosque: .quran 17   سورة الحجر  ماهر المعيقلي
-
-:mosque: .quran 18   سورة النحل بصوت ماهر المعيقلي
-
-:mosque: .quran 19   سوره الاسراء الشيخ ماهر المعقلي تلاوه بارواع الاصوات Al-Isra
-
-:mosque: .quran 20 سورة مريم | ماهر المعيقلي ::: تلاوة خاشعه
-
-:mosque: .quran 21   ماهر المعيقلي سورة الانبياء
-
-:mosque: .quran 22   ماهر المعيقلي سورة االحجء
-
-:mosque: .quran 23 سورة الحج مكتوبة ماهر المعيقلي
-
-:mosque: .quran 24  ماهر المعيقلي سورة المؤمنون كامله
-
-:mosque: .quran 25   سورة النور كاملة ماهر المعيقلي
-
-:mosque: .quran 26  سورة الفرقان - ماهر المعيقلي
-
-:mosque: .quran 27   سورة الشعراء مكتوبة كاملة ماهر المعيقلي
-
-:mosque: .quran 28   أجمل تلاوة ماهر المعيقلي سورة النمل كاملةه
-
-:mosque: .quran 29 سورةقصص كاملة مكتوبة ماهر المعيقلي 
-
-:mosque: .quran 30   سورة العنكبوت ماهر المعيقلي
-
-:mosque: .quran 31 أجمل تلاوة سورة الروم ماهر المعيقلي
-
-
-
-
-
-
-
-
-
-
-:mosque: .stop     : لـ أيقاف تشغيل البوت
-البوت من فاعلين خير لدعوة 
-لدعوة البوت .inv
-لسيرفر المساعدة.sp`)
-}	    
+	    
 });
 
-client.on('message', message => {
-     if (message.content === ".sp") {
-     let embed = new Discord.RichEmbed()
-  .setAuthor(message.author.username)
-  .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/6ZMhN2x**")
-     
-     
-  message.channel.sendEmbed(embed);
-    }
-});
-
-
-
-
-client.on('message', message => {
-        if (message.content === ".inv") {
-            if(!message.channel.guild) return;
-        let embed = new Discord.RichEmbed()
-        .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
-        .setTitle(`:small_orange_diamond: اضغط هنا `)
-        .setURL(`https://discordapp.com/oauth2/authorize/?permissions=0&scope=bot&client_id=479645812280786957`)
-        .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
-     message.channel.sendEmbed(embed);
-       }
-   });
-
-
-
-
-
-
-
-
-
-client.on('ready', () => {
-  client.user.setGame(`لخواص البوت .helpاو.sp`,'https://www.twitch.');
-});
 
 
 
