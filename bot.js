@@ -76,7 +76,7 @@ var q15 = ".quran 15"
 
 var q16 = ".quran 16"
 
-var q17 = ".quran 17"
+
 
 var q18 = ".quran 18"
 
@@ -710,7 +710,6 @@ if(message.content === ".help") {
 
 :mosque: .quran 16:   ماهر المعيقلي سورة ابراهيم كامله
 
-:mosque: .quran 17   سورة الحجر  ماهر المعيقلي
 
 :mosque: .quran 18   سورة النحل بصوت ماهر المعيقلي
 
