@@ -381,7 +381,7 @@ client.on("message", message => {
 
 
 
-cif (message.content === q17) {
+if (message.content === q17) {
                   message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
