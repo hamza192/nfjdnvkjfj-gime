@@ -76,6 +76,8 @@ var q15 = ".quran 15"
 
 var q16 = ".quran 16"
 
+var q17 = ".quran 17"
+
 var q18 = ".quran 18"
 
 var q19 = ".quran 19"
@@ -397,7 +399,18 @@ if (message.content === q8 ) {
 
 
 
-
+cif (message.content === q17) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=5jovCoS5Fbw', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
 	
 	
 	
@@ -667,12 +680,37 @@ if (message.content === q8 ) {
         const dispatcher = connnection.playStream(stream);
         });
   }
-
  
+ 
+    
+    
+    //outher_cummon  
+    
+  
+  if(message.content === ".stop" ) {
+      			var servers = {};
+
+			if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	
+  }
+
+  if(message.content === ".help") {
+    message.channel.send(` QuranBot
+:mosque: .quran 1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
+
+:mosque: .quran 2  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
+
+:mosque: .quran 3  :   القرآن الكريم كامل بصوت الشيخ عبد الرحمن السديس وسعود الشريم 
+
+:mosque: .quran 4  :   القرآن الكريم كامل بصوت الشيخ المعيقلي
+
+:mosque: .stop     : لـ أيقاف تشغيل البوت `)
+}
  
 	    
-
 });
+
+
 
 
 client.login(process.env.BOT_TOKEN);
