@@ -522,8 +522,8 @@ cif (message.content === q17) {
 	
 	
 	
-	
-	
+	g
+	g
 	
 	
 	
