@@ -58,7 +58,17 @@ var q6 = ".quran 6"
 
 var q7 = ".quran 7"
 
+var q8 = ".quran 8"
 
+var q9 = ".quran 9"
+
+var q10 = ".quran 10"
+
+var q11 = ".quran 11"
+
+var q12 = ".quran 12"
+
+var q13 = ".quran 13"
 
 function play(connection, message) {
 	var server = servers[message.guild.id];
@@ -187,7 +197,105 @@ client.on("message", message => {
   }
 	
 	
+	if (message.content === q8 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=0rY0n4xEs44', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }	
 	
+	
+	
+	
+	if (message.content === q9 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=vjGEP4rW_l4', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q10 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=7vrX1vIyRzw', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q11 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=tuYP5JktEn0', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	if (message.content === q12 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=4fugPfoybFI', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	if (message.content === q13 ) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=YuiDHf624tY', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
 	
 	
 	
@@ -223,7 +331,17 @@ client.on("message", message => {
 
 :mosque: .quran 7 :   سورة المائده كامله بصوت الشيخ ماهر المعيقلي
 
+:mosque: .quran 8:   ماهر المعيقلي سورة الانعام كامله
 
+:mosque: .quran 8:   ماهر المعيقلي سورة الاعراف كامله
+
+:mosque: .quran 10 :   ماهر المعيقلي سورة الانفال كامله
+
+:mosque: .quran 11 :   سورة التوبة كاملة .. للشيخ ماهر المعيقلي ..
+
+:mosque: .quran 12 :   ماهر المعيقلي سورة يونس كامله
+
+:mosque: .quran 13 :   ماهر المعيقلي سورة يونس كامله
 
 
 
