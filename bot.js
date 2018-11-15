@@ -70,6 +70,38 @@ var q12 = ".quran 12"
 
 var q13 = ".quran 13"
 
+var q14 = ".quran 14"
+
+var q15 = ".quran 15"
+
+var q16 = ".quran 16"
+
+var q17 = ".quran 17"
+
+var q18 = ".quran 18"
+
+var q19 = ".quran 19"
+
+var q20 = ".quran 20"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function play(connection, message) {
 	var server = servers[message.guild.id];
 
@@ -298,7 +330,131 @@ client.on("message", message => {
   }
 	
 	
+	if (message.content === q14) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=YrWbQz7M2EA', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
 	
+	
+	
+	
+	if (message.content === q15) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=siH3Rm3pqkw', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	if (message.content === q16) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=vD4fLi_MtKs', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+
+
+
+
+cif (message.content === q17) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=5jovCoS5Fbw', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	if (message.content === q18) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=bNYNoM-d444', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	
+	if (message.content === q19) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=jIhMpnx5ceE', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	if (message.content === q20) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=cJNKDUqkbkc', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
 	
 	
 	
@@ -340,9 +496,21 @@ client.on("message", message => {
 
 :mosque: .quran 12 :    سورة يونس 
 
-:mosque: .quran 13 :    سورة يونس
+:mosque: .quran 13 :    سورة طه
 
+:mosque: .quran 14 :   سورة يوسف  .
 
+:mosque: .quran 15 :    سورة الرعد 
+
+:mosque: .quran 16:    سورة ابراهيم
+
+:mosque: .quran 17      سورة الحجر  
+
+:mosque: .quran 18      سورة النحل
+
+:mosque: .quran 19     سورة الاسراء
+
+:mosque: .quran 20      سورة مريم 
 
 
 
