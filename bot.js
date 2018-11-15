@@ -519,18 +519,7 @@ cif (message.content === q17) {
 	
 	
 	
-	if (message.content === q23) {
-                  message.react('🔊')
-    const voiceChannel = message.member.voiceChannel;
-    if (!voiceChannel) {
-      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
-    }
-    voiceChannel.join()
-      .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=HKajpaHo72E', {audioonly: true});
-        const dispatcher = connnection.playStream(stream);
-        });
-  }
+	
 	
 	
 	
