@@ -674,6 +674,7 @@ if (message.content === q8 ) {
  
 	    
 
+});
 
 
 client.login(process.env.BOT_TOKEN);
