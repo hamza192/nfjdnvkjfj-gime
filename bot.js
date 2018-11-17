@@ -660,7 +660,9 @@ client.on("message", message => {
 	
 
 
-	if (message.content === q31 {
+	
+	
+	if (message.content === q31) {
                   message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
@@ -672,8 +674,6 @@ client.on("message", message => {
         const dispatcher = connnection.playStream(stream);
         });
   }
-	
-	
 	
 	
 	
