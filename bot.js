@@ -631,9 +631,8 @@ client.on("message", message => {
 
 :mosque: .quran 21    سورة الانبياء
 
-:mosque: .quran 22   ي سورة االحج
-
-:mosque: .quran 23    سورة المؤمنون  
+:mosque: .quran 22    
+:mosque: .quran 23    سورة االحج
 
 :mosque: .quran 24    
 
