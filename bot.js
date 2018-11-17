@@ -458,7 +458,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=cJNKDUqkbkc', {audioonly: true});
+        let stream = yt(https://www.youtube.com/watch?v=cJNKDUqkbkc', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -472,7 +472,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=00A-STn5M0E', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=GUYyQpEgBgM&t=1s', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -629,14 +629,15 @@ client.on("message", message => {
 
 :mosque: .quran 20      سورة مريم 
 
-:mosque: .quran 21    سورة الانبياء
+:mosque: .quran 21    سورةطه
 
-:mosque: .quran 22    
+:mosque: .quran 22   سورة الانبياء 
+
 :mosque: .quran 23    سورة االحج
 
-:mosque: .quran 24    
+:mosque: .quran 24    سورة المؤمنون
 
-:mosque: .quran 25   سورة الفرقان 
+:mosque: .quran 25   سورة النور 
 
 
 
