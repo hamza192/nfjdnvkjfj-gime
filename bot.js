@@ -458,7 +458,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt(https://www.youtube.com/watch?v=cJNKDUqkbkc', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=cJNKDUqkbkc', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
