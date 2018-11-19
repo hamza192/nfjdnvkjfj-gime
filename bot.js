@@ -948,7 +948,7 @@ if (message.content === q46) {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=cWr5SgcFfog', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=jsYc7avW2s0', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }	
@@ -965,7 +965,7 @@ if (message.content === q46) {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=cWr5SgcFfog', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=t3l5cR5DBPY', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -982,7 +982,7 @@ if (message.content === q46) {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=cWr5SgcFfog', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=YCgj4JVJbnI', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -998,7 +998,7 @@ if (message.content === q46) {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=cWr5SgcFfog', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=oOXen5F_5ag', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -1015,7 +1015,7 @@ if (message.content === q46) {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=cWr5SgcFfog', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=xtOr1VvcpEE', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -1039,7 +1039,7 @@ if (message.content === q46) {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=cWr5SgcFfog', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=GJUBSPK8Uck', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -1160,17 +1160,17 @@ if (message.content === q46) {
 
 :mosque: .quran 45     سورة الدخان
 
-:mosque: .quran 46     
+:mosque: .quran 46     سورة الجاثية
 
-:mosque: .quran 47    
+:mosque: .quran 47     سورة الأحقاف
 
-:mosque: .quran 48   
+:mosque: .quran 48    سورة محمد
 
-:mosque: .quran 49    
+:mosque: .quran 49    سورة الفتح 
 
-:mosque: .quran 50    
+:mosque: .quran 50    سورة الحجرات
 
-:mosque: .quran 51    
+:mosque: .quran 51    سورة ق 
 
 
 
