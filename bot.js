@@ -754,7 +754,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=MzaKmVVCzvY', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -774,7 +774,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=3ROB-LEbaLQ', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -791,7 +791,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=KpNqGctH-p0', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -809,7 +809,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=SK61AAkZBCw', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -827,7 +827,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=vkWOmDn-qm4', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -842,7 +842,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=BqNCQL7Czcw', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -855,7 +855,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=cWr5SgcFfog', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -949,19 +949,20 @@ client.on("message", message => {
 
 :mosque: .quran 34      سورة الاحزاب
 
-:mosque: .quran 35
+:mosque: .quran 35        سورة سبأ
 
-:mosque: .quran 36
+:mosque: .quran 36           سورة فاطر
 
-:mosque: .quran 37
+:mosque: .quran 37          سورة يس
 
-:mosque: .quran 38
+:mosque: .quran 38         سورة الصافات
 
-:mosque: .quran 39
+:mosque: .quran 39           سورة ص 
 
-:mosque: .quran 40
+:mosque: .quran 40        سورة الزمر
 
-:mosque: .quran 41
+:mosque: .quran 41    سورة غافر 
+
 
 
 
