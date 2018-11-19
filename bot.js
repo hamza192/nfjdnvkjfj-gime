@@ -106,11 +106,25 @@ var q30 = ".quran 30"
 
 var q31 = ".quran 31"
 
+var q32 = ".quran 32"
 
+var q33 = ".quran 33"
 
+var q34 = ".quran 34"
 
+var q35 = ".quran 35"
 
+var q36 = ".quran 36"
 
+var q37 = ".quran 37"
+
+var q38 = ".quran 38"
+
+var q39 = ".quran 39"
+
+var q40 = ".quran 40"
+
+var q41 = ".quran 41"
 
 
 
@@ -677,7 +691,12 @@ client.on("message", message => {
 	
 	
 	
-	if (message.content === q31) {
+	
+	
+	
+	
+	
+	if (message.content === q32) {
                   message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
@@ -685,7 +704,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=WnhXTM8AFP8', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -693,8 +712,7 @@ client.on("message", message => {
 	
 	
 	
-	
-	if (message.content === q31) {
+	if (message.content === q33) {
                   message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
@@ -702,7 +720,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=ObJVSSp9czY', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -710,7 +728,7 @@ client.on("message", message => {
 	
 	
 	
-	if (message.content === q31) {
+	if (message.content === q34) {
                   message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
@@ -718,23 +736,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
-        const dispatcher = connnection.playStream(stream);
-        });
-  }
-	
-	
-	
-	
-	if (message.content === q31) {
-                  message.react('🔊')
-    const voiceChannel = message.member.voiceChannel;
-    if (!voiceChannel) {
-      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
-    }
-    voiceChannel.join()
-      .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=lYJujc7930k', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -744,44 +746,7 @@ client.on("message", message => {
 	
 	
 	
-	if (message.content === q31) {
-                  message.react('🔊')
-    const voiceChannel = message.member.voiceChannel;
-    if (!voiceChannel) {
-      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
-    }
-    voiceChannel.join()
-      .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
-        const dispatcher = connnection.playStream(stream);
-        });
-  }
-	
-	
-	
-	
-	
-	
-	
-	
-	if (message.content === q31) {
-                  message.react('🔊')
-    const voiceChannel = message.member.voiceChannel;
-    if (!voiceChannel) {
-      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
-    }
-    voiceChannel.join()
-      .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
-        const dispatcher = connnection.playStream(stream);
-        });
-  }
-	
-	
-	
-	
-	
-	if (message.content === q31) {
+	if (message.content === q35) {
                   message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
@@ -799,7 +764,26 @@ client.on("message", message => {
 	
 	
 	
-	if (message.content === q31) {
+	
+	
+	if (message.content === q36) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	
+	
+	
+	
+	if (message.content === q37) {
                   message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
@@ -817,7 +801,7 @@ client.on("message", message => {
 	
 	
 	
-	if (message.content === q31) {
+	if (message.content === q38) {
                   message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
@@ -832,7 +816,10 @@ client.on("message", message => {
 	
 	
 	
-	if (message.content === q31) {
+	
+	
+	
+	if (message.content === q39) {
                   message.react('🔊')
     const voiceChannel = message.member.voiceChannel;
     if (!voiceChannel) {
@@ -846,6 +833,32 @@ client.on("message", message => {
   }
 	
 	
+	
+	if (message.content === q40) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
+	
+	if (message.content === q41) {
+                  message.react('🔊')
+    const voiceChannel = message.member.voiceChannel;
+    if (!voiceChannel) {
+      return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
+    }
+    voiceChannel.join()
+      .then(connnection => {
+        let stream = yt('https://www.youtube.com/watch?v=EjeOlh8DQZw', {audioonly: true});
+        const dispatcher = connnection.playStream(stream);
+        });
+  }
 	
 	
 	
@@ -929,6 +942,31 @@ client.on("message", message => {
 :mosque: .quran 30   سورة العنكبوت 
 
 :mosque: .quran 31    سورة الروم 
+
+:mosque: .quran 32      سورة لقمان
+
+:mosque: .quran 33      سورة السجدة
+
+:mosque: .quran 34      سورة الاحزاب
+
+:mosque: .quran 35
+
+:mosque: .quran 36
+
+:mosque: .quran 37
+
+:mosque: .quran 38
+
+:mosque: .quran 39
+
+:mosque: .quran 40
+
+:mosque: .quran 41
+
+
+
+
+
 
 
 
