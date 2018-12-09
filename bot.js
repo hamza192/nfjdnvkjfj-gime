@@ -146,6 +146,36 @@ var q50 = ".quran 50"
 
 var q51 = ".quran 51"
 
+var q52 = ".quran 52"
+
+var q53 = ".quran 53"
+
+var q45 = ".quran 54"
+
+var q55 = ".quran 55"
+
+var q56 = ".quran 56"
+
+var q57 = ".quran 57"
+
+var q58 = ".quran 58"
+
+var q59 = ".quran 59"
+
+var q60 = ".quran 60"
+
+var q61 = ".quran 61"
+
+
+
+
+
+
+
+
+
+
+
 
 
 function play(connection, message) {
